@@ -100,4 +100,47 @@ To https://github.com/Labibzahin007/Software-Engineering-
    130a637..94ff665  master -> master
 
 Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
+$ git add command.txt
+
+Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
+$ git commit -m "File name is changed"
+[master fd97311] File name is changed
+ 1 file changed, 103 insertions(+)
+ create mode 100644 command.txt
+
+Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.11 KiB | 1.11 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Labibzahin007/Software-Engineering-
+   94ff665..fd97311  master -> master
+
+Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
+$ git rm t-1.txt
+rm 't-1.txt'
+
+Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
+$ git commit -m "file is deleted"
+[master 16c6220] file is deleted
+ 1 file changed, 76 deletions(-)
+ delete mode 100644 t-1.txt
+
+Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 223 bytes | 223.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Labibzahin007/Software-Engineering-
+   fd97311..16c6220  master -> master
+
+Labib Zahin@DESKTOP-QSBISNI MINGW64 ~/Desktop/SE lab-01 (master)
 $
